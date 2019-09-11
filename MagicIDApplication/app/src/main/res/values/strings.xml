@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Magic ID Application</string>
+    <string name="edittextHint">please enter ID number</string>
+    <string name="b1">Submit</string>
+    <string name="textview1">TextView</string>
+    <string name="Dob">Date of Birth:</string>
+    <string name="gender">Gender:</string>
+    <string name="nationality">Nationality:</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="sacitizen">SA Citizen</string>
+    <string name="permanentresident">Permanent Resident</string>
+</resources>

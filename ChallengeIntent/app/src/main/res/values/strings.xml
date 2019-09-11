@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Challenge Intent</string>
+    <string name="contact_app">Contact App</string>
+    <string name="todo">TODO</string>
+    <string name="please_enter_location">Please enter Location</string>
+    <string name="please_enter_web_address">Please enter Web Address</string>
+    <string name="please_enter_name">please enter Name</string>
+    <string name="please_enter_phone_number">Please enter phone Number</string>
+</resources>

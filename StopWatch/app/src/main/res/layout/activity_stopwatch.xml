@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hfad.stopwatch.stopwatch">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:id="@+id/time_view"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/time_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="29dp"
+            android:onClick="onClickStart"
+            android:text="@string/start" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnStart"
+            android:layout_alignStart="@+id/btnStart"
+            android:layout_alignLeft="@+id/btnStart"
+            android:layout_marginTop="27dp"
+            android:onClick="onClickStop"
+            android:text="@string/stop" />
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnCancel"
+            android:layout_alignStart="@+id/btnCancel"
+            android:layout_alignLeft="@+id/btnCancel"
+            android:layout_marginTop="22dp"
+            android:onClick="onClickReset"
+            android:text="@string/reset" />
+
+        <TextView
+            android:id="@+id/milisec_view"
+            android:layout_width="50dp"
+            android:layout_height="33dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="63dp"
+            android:layout_toEndOf="@+id/time_view" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
